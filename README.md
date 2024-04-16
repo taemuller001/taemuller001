@@ -10,6 +10,9 @@
     <form action="process_registration.php" method="POST">
         <label for="username">ชื่อผู้ใช้:</label><br>
         <input type="text" id="username" name="username" required><br>
+        
+        <label for="studentID">รหัสนักศึกษา:</label><br>
+        <input type="text" id="studentID" name="studentID" required><br>
 
         <label for="email">อีเมล:</label><br>
         <input type="email" id="email" name="email" required><br>
@@ -21,7 +24,7 @@
         <input type="password" id="confirm_password" name="confirm_password" required><br>
 
         <input type="submit" value="สมัครสมาชิก">
-        <input type="cancle" value="ยกเลิกการสมัครสมาชิก">
+        
     </form>
 </body>
 </html>
