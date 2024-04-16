@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+สมัครสมาชิกฟิตเนส
 <html>
 <head>
   <meta charset="UTF-8">
