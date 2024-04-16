@@ -1,16 +1,28 @@
-สมัครสมาชิกฟิตเนส
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="keywords" content="สมัครสมาชิกฟิตเนส SRIPATUM UNIVERSITY">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิก</title>
+    
 </head>
 <body>
-  <form action="http://google.co.th" method="POST" name="name">
-    <input type="text" name="name">
-    <input type="password" name="name">
-    <input type="radio" name="name">
-    <input type="checkbox" name="name">
-    <input type="submit" name="name">
-  </form>
+    <h1>สมัครสมาชิก</h1>
+    <form action="process_registration.php" method="POST">
+        <label for="username">ชื่อผู้ใช้:</label><br>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">อีเมล:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">รหัสผ่าน:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm_password">ยืนยันรหัสผ่าน:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+
+        <input type="submit" value="สมัครสมาชิก">
+    </form>
 </body>
 </html>
